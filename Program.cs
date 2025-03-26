@@ -7,7 +7,7 @@ public class Program
 {
     public static void Main()
     {
-        Console.Title = "RestoreBuggedWindow | Made by https://github.com/GabryB03/";
+        Console.Title = "RestoreBuggedWindow | Made by https://github.com/ZygoteCode/";
 
         if (!(new WindowsPrincipal(WindowsIdentity.GetCurrent())).IsInRole(WindowsBuiltInRole.Administrator))
         {
